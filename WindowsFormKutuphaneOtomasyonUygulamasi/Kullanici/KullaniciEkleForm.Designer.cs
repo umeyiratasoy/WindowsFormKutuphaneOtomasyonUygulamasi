@@ -192,7 +192,7 @@ namespace WindowsFormKutuphaneOtomasyonUygulamasi
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(288, 31);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(509, 177);
+            this.dataGridView1.Size = new System.Drawing.Size(976, 177);
             this.dataGridView1.TabIndex = 16;
             // 
             // KullaniciEkleForm
@@ -200,7 +200,7 @@ namespace WindowsFormKutuphaneOtomasyonUygulamasi
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(809, 254);
+            this.ClientSize = new System.Drawing.Size(1276, 253);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.kullaniciEkleBtn);
             this.Controls.Add(this.kullaniciCezaText);

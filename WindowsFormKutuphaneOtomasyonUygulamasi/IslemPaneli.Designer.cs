@@ -49,7 +49,7 @@ namespace WindowsFormKutuphaneOtomasyonUygulamasi
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(137, 524);
+            this.panel1.Size = new System.Drawing.Size(137, 362);
             this.panel1.TabIndex = 0;
             // 
             // guncelleKullaniciBtn
@@ -63,6 +63,7 @@ namespace WindowsFormKutuphaneOtomasyonUygulamasi
             this.guncelleKullaniciBtn.TabIndex = 6;
             this.guncelleKullaniciBtn.Text = "Güncelle";
             this.guncelleKullaniciBtn.UseVisualStyleBackColor = true;
+            this.guncelleKullaniciBtn.Click += new System.EventHandler(this.guncelleKullaniciBtn_Click);
             // 
             // silKullaniciBtn
             // 
@@ -75,6 +76,7 @@ namespace WindowsFormKutuphaneOtomasyonUygulamasi
             this.silKullaniciBtn.TabIndex = 5;
             this.silKullaniciBtn.Text = "Sil";
             this.silKullaniciBtn.UseVisualStyleBackColor = true;
+            this.silKullaniciBtn.Click += new System.EventHandler(this.silKullaniciBtn_Click);
             // 
             // ekleKullaniciBtn
             // 
@@ -108,7 +110,7 @@ namespace WindowsFormKutuphaneOtomasyonUygulamasi
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(137, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(805, 43);
+            this.panel2.Size = new System.Drawing.Size(1139, 43);
             this.panel2.TabIndex = 1;
             // 
             // IslemPaneli
@@ -116,7 +118,7 @@ namespace WindowsFormKutuphaneOtomasyonUygulamasi
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(942, 524);
+            this.ClientSize = new System.Drawing.Size(1276, 362);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormKutuphaneOtomasyonUygulamasi.Kullanici;
 
 namespace WindowsFormKutuphaneOtomasyonUygulamasi
 {
@@ -53,6 +54,20 @@ namespace WindowsFormKutuphaneOtomasyonUygulamasi
             KullaniciEkleForm kullaniciEkleForm = new KullaniciEkleForm();
             kullaniciEkleForm.MdiParent = this;
             kullaniciEkleForm.Show();
+        }
+
+        private void silKullaniciBtn_Click(object sender, EventArgs e)
+        {
+            KullaniciSilForm kullaniciSilForm = new KullaniciSilForm();
+            kullaniciSilForm.MdiParent = this;
+            kullaniciSilForm.Show();
+        }
+
+        private void guncelleKullaniciBtn_Click(object sender, EventArgs e)
+        {
+            KullaniciGuncelleForm kullaniciGuncelleForm = new KullaniciGuncelleForm();
+            kullaniciGuncelleForm.MdiParent = this;
+            kullaniciGuncelleForm.Show();
         }
     }
 }
