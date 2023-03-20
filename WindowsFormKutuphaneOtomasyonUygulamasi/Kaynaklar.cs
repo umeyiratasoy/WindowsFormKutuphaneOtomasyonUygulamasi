@@ -12,22 +12,20 @@ namespace WindowsFormKutuphaneOtomasyonUygulamasi
     using System;
     using System.Collections.Generic;
     
-    public partial class Personeller
+    public partial class Kaynaklar
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Personeller()
+        public Kaynaklar()
         {
             this.Kayitlar = new HashSet<Kayitlar>();
         }
     
-        public int personel_id { get; set; }
-        public string personel_ad { get; set; }
-        public string personel_soyad { get; set; }
-        public string personel_tc { get; set; }
-        public string personel_tel { get; set; }
-        public string personel_mail { get; set; }
-        public string personel_kullaniciAdi { get; set; }
-        public string personel_sifre { get; set; }
+        public int kaynak_id { get; set; }
+        public string kaynak_ad { get; set; }
+        public string kaynak_yazarad { get; set; }
+        public string kaynak_yayinci { get; set; }
+        public Nullable<int> kaynak_sayfasayisi { get; set; }
+        public Nullable<System.DateTime> kaynak_basimTarihi { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Kayitlar> Kayitlar { get; set; }
